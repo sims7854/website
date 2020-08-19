@@ -1,0 +1,525 @@
+a:link {text-decoration: none; color: #d5d5d5;}
+a:visited {text-decoration: none; color: #d5d5d5;}
+a:active {text-decoration: none; color: #d5d5d5;}
+a:hover {text-decoration: none; color: #ffffff;}
+
+
+
+/* 데스크 탑 */
+@media screen and (min-width:100px){
+    #main-menu  {
+        background-color: #302f2f;
+        color: #d5d5d5;
+        position: fixed;
+        width: 102%;
+        height: 60px;
+        top: -15px;
+        left: -5px;  
+        z-index: 100;        
+    }
+    #main-menu-mobile li {
+        width: 33%;
+        height: 50px;
+        text-align:center;
+        float:left;
+        list-style: none;
+        line-height: 50px;
+        margin-top: -150px;
+    }
+    #main-menu-desktop li {
+        width: 11.111%;
+        text-align:center;
+        float:left;
+        list-style: none;
+        line-height: 50px;
+        margin-top: -5px;
+    }
+    #menu:active {
+        background-color: green;
+    }
+/* desktop section 부분 */
+    .homepage-notice {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(240,240,240);
+        font-size: 12px;
+        text-align: center;
+        margin-top: 45px;
+    }
+        .homepage-notice a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .homepage-notice a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+
+/* section1 */
+    
+    .iphone-se {
+        width: 100%;
+        height: 650px;
+        background-color:rgb(27, 26, 26);
+        margin-top: 5px;
+        color: white;
+        text-align: center;
+        line-height: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        overflow: hidden;
+        background-image: url(images/iphone-se.PNG);
+        background-repeat: no-repeat;
+        background-size: 800px auto;
+        background-position: 50% 80%;
+    }
+        .iphone-se b {
+            line-height: 120px;
+            font-size: 50px;
+        }
+        .iphone-se a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .iphone-se a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+        .iphone-se-img {
+            width:1px;
+            height: 1px;
+            opacity: 0;
+        }
+    .iphone-11 {
+        width: 100%;
+        height: 650px;
+        background-color: rgb(240,240,240);
+        overflow: hidden;
+        background-image: url(images/iphone-11.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        
+
+    }
+        .iphone-11 b {
+            line-height: 70px;
+            font-size: 50px;
+        }
+        .iphone-11 a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .iphone-11 a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+        .iphone-11-img {
+            margin-top:  -500px;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+        }
+    .ipad-pro {
+        width: 100%;
+        height: 700px;
+        background-color: rgb(240,240,240);
+        margin-top: 5px;
+        overflow: hidden;
+        background-image: url(images/ipad-pro.png);
+        background-repeat: no-repeat;
+        background-size: 750px auto;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+        .ipad-pro b {
+            line-height: 120px;
+            font-size: 50px;
+        }
+        .ipad-pro a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .ipad-pro a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+        .ipad-pro-img {
+            margin-top:  -500px;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+        }
+/* section2 */
+    .store {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(240,240,240);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        overflow: hidden;
+        background-image: url(images/store.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        .store b {
+            line-height: 50px;
+            font-size: 30px;
+        }
+        .store a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .store a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+    .wwdc20 {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(27, 26, 26);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        color: white;
+        overflow: hidden;
+        background-image: url(images/wwdc.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        .wwdc20 b {
+            line-height: 50px;
+            font-size: 40px;
+        }
+        .wwdc20 a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .wwdc20 a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+    .fashion {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(240,240,240);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        overflow: hidden;
+        background-image: url(images/fashion.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        .fashion b {
+            line-height: 50px;
+            font-size: 38px;
+        }
+        .fashion a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .fashion a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+    .iphone11-pro {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(27, 26, 26);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        color: white;
+        overflow: hidden;
+        background-image: url(images/iphone-11-pro.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        .iphone11-pro b {
+            line-height: 50px;
+            font-size: 38px;
+        }
+        .iphone11-pro a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .iphone11-pro a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+    .airpods {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(240,240,240);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        overflow: hidden;
+        background-image: url(images/airpods.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        .airpods b {
+            line-height: 50px;
+            font-size: 38px;
+        }
+        .airpods a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .airpods a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+    .macbook-pro {
+        width: 49.25%;
+        height: 600px;
+        background-color: rgb(27, 26, 26);
+        margin-top: 5px;
+        margin-left: 0.5%;
+        float:left;
+        overflow: hidden;
+        background-image: url(images/macbook-pro.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+        .macbook-pro b {
+            line-height: 50px;
+            font-size: 38px;
+        }
+        .macbook-pro a {
+            text-decoration: none; color: rgb(107, 127, 240);
+        }
+        .macbook-pro a:hover {
+            text-decoration: underline; color: rgb(107, 127, 240);
+        }
+/* footer  부분 */
+    .flex-box  {
+        width: 100%; 
+        height: 700px; 
+        background-color: rgb(235, 230, 230);
+        margin-top: 5px;
+        float:left;
+    }
+    .flex-box2  {
+        max-width: 1000px; 
+        height: auto;
+        float:clear;
+    }
+    .flex-box-d {
+        width: 100%;
+        height: 550px;
+    }
+    .flex-box-d p {
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+    }
+    .flex-box-d p a {
+        text-decoration: none; color: rgb(107, 127, 240);
+    }
+    .flex-box-d p a:hover {
+        text-decoration: underline; color: rgb(107, 127, 240);
+    }
+    .flex-box-d2 {
+        width: 20%;
+        height: 450px;
+        margin-top: 5px;
+        float: left;
+        list-style: none;
+        text-align: left; 
+        font-size: 13px;
+    }
+    .flex-box-d2 ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+    .flex-box-d2 li {
+        margin-top: 10px;
+    }
+    .flex-box-d2 li a {
+        text-decoration: none; color: gray;
+    }
+    .flex-box-d2 li a:hover {
+        text-decoration:underline; color: gray;
+    }
+    details {
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
+}
+/* 모바일 (#main-menu-mobile 조정은 데스크탑 구간에서) */
+@media screen and (max-width:800px) and (min-width:100px) {
+    #main-menu-mobile li {
+        margin-top: -5px;
+    }
+    #main-menu-desktop li {
+        margin-top: -50%;      
+    }
+/* mobile section 부분 */
+    .homepage-notice { 
+        height: 120px;
+    }
+    details {
+        width: 100px;
+        height: 50px;;
+        margin-left: -12px;
+        opacity: 1;
+    }
+    details > summary::-webkit-details-marker {
+        display: none
+    }
+    summary:hover {
+        cursor: pointer;
+    }
+    summary {
+        outline: none;
+    }
+/* section1 */
+    .iphone-se {
+        height: 650px;
+        margin-top: 5px;
+        line-height: 12px;
+        font-size: 15px;
+        background-image: url();
+    }
+        .iphone-se b {
+            line-height: 80px;
+            font-size: 40px;
+        }
+        .iphone-se-img {
+            width:220px;
+            height: auto;
+            opacity:1;
+            margin-top: -80px;
+        }
+    .iphone-11 {
+        width: 100%;
+        height: 650px;
+        margin-top: 5px;
+        line-height: 12px;
+        font-size: 15px;
+        overflow: hidden;
+        background-image: url();
+    }
+        .iphone-11 b {
+            line-height: 80px;
+            font-size: 40px;
+        }
+        .iphone-11-img {
+            margin-top: -40px;
+            width: 700px;
+            height: 100%;
+            opacity: 1;
+        }
+    .ipad-pro {
+        height: 500px;
+        margin-top: 5px;
+        line-height: 12px;
+        font-size: 15px;
+        overflow: hidden;
+        background-image: url();
+    }
+        .ipad-pro b {
+            line-height: 80px;
+            font-size: 40px;
+        }
+        .ipad-pro-img {
+            margin-top: -60px;
+            width: 500px;
+            height: auto;
+            opacity: 1;
+        }
+/* section2 */
+    .store {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+        
+    }
+    .wwdc20 {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+        
+    }
+    .fashion {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+       
+    }
+    .iphone11-pro {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+    }
+    .airpods {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+    }
+    .macbook-pro {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+        float:clear;
+    }
+/* footer  부분 */
+    .flex-box  {
+        width: 101%;
+    }
+    .flex-box2 {
+        width: 100%;
+        height: 550px;
+        margin-left: 0;
+    }
+    .flex-box-d p {
+        font-size: 15px;
+    }
+    .flex-box-d2 {
+        height: 1px;
+        margin-left: -300px;
+        opacity: 0;
+    }
+}
+
+        
