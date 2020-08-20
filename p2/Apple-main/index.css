@@ -125,7 +125,7 @@ a:hover {text-decoration: none; color: #ffffff;}
         background-color: rgb(240,240,240);
         margin-top: 5px;
         overflow: hidden;
-        background-image: url(images/ipad-pro.png);
+        background-image: url(images/ipad-pro.PNG);
         background-repeat: no-repeat;
         background-size: 750px auto;
         background-position: center;
@@ -414,7 +414,7 @@ a:hover {text-decoration: none; color: #ffffff;}
         margin-top: 5px;
         line-height: 12px;
         font-size: 15px;
-        background-image: url(images/iphone-se2.png);
+        background-image: url(images/iphone-se2.PNG);
         background-repeat: no-repeat;
         background-size: 300px auto;
         background-position: 50% 80%;
@@ -431,7 +431,7 @@ a:hover {text-decoration: none; color: #ffffff;}
         line-height: 12px;
         font-size: 15px;
         overflow: hidden;
-        background-image: url(images/iphone-11-2.png);
+        background-image: url(images/iphone-11-2.PNG);
         background-repeat: no-repeat;
         background-size: 700px auto;
         background-position: 50% 100%;
@@ -447,7 +447,7 @@ a:hover {text-decoration: none; color: #ffffff;}
         line-height: 12px;
         font-size: 15px;
         overflow: hidden;
-        background-image: url(images/ipad-pro-2.png);
+        background-image: url(images/ipad-pro-2.PNG);
         background-repeat: no-repeat;
         background-size: 500px auto;
         background-position: 50% 100%;
