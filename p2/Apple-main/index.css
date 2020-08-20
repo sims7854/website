@@ -414,18 +414,16 @@ a:hover {text-decoration: none; color: #ffffff;}
         margin-top: 5px;
         line-height: 12px;
         font-size: 15px;
-        background-image: url();
+        background-image: url(images/iphone-se2.png);
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        background-position: 50% 80%;
     }
         .iphone-se b {
             line-height: 80px;
             font-size: 40px;
         }
-        .iphone-se-img {
-            width:220px;
-            height: auto;
-            display: inline;
-            margin-top: -80px;
-        }
+       
     .iphone-11 {
         width: 100%;
         height: 650px;
@@ -433,36 +431,32 @@ a:hover {text-decoration: none; color: #ffffff;}
         line-height: 12px;
         font-size: 15px;
         overflow: hidden;
-        background-image: url();
+        background-image: url(images/iphone-11-2.png);
+        background-repeat: no-repeat;
+        background-size: 700px auto;
+        background-position: 50% 100%;
     }
         .iphone-11 b {
             line-height: 80px;
             font-size: 40px;
         }
-        .iphone-11-img {
-            margin-top: -40px;
-            width: 700px;
-            height: 100%;
-            opacity: 1;
-        }
+        
     .ipad-pro {
         height: 500px;
         margin-top: 5px;
         line-height: 12px;
         font-size: 15px;
         overflow: hidden;
-        background-image: url();
+        background-image: url(images/ipad-pro-2.png);
+        background-repeat: no-repeat;
+        background-size: 500px auto;
+        background-position: 50% 100%;
     }
         .ipad-pro b {
             line-height: 80px;
             font-size: 40px;
         }
-        .ipad-pro-img {
-            margin-top: -60px;
-            width: 500px;
-            height: auto;
-            opacity: 1;
-        }
+       
 /* section2 */
     .store {
         width: 100%;
